@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Домашняя</title>
+</head>
+<body>
+<a href="?page=contact">Контакты</a>
+<a href="?page=about">О нас</a>
+<?php
+for ($i=0; $i<= count($posts); $i++)
+echo "<br>", $posts[$i]["title"],"&nbsp", $posts [$i]["description"] ;
+?>
+</body>
+</html>
