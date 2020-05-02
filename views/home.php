@@ -5,7 +5,6 @@
 	<link rel="stylesheet" href="bootstrap.min.css">
 </head>
 <body>
-	<h1>Вы находитесь на домашней странице, добро пожаловать!</h1>
 <a href="?page=contact" class="btn btn-primary active" role="button" aria-pressed="true">Контакты</a>
 <a href="?page=about" class="btn btn-primary active" role="button" aria-pressed="true">О нас</a>
 <?php

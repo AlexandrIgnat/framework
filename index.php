@@ -1,6 +1,7 @@
 <?php
 require "Request.php";
 require "models/post.php";
+/*require "views/home.php";*/
 $request = new Request;
 if ($request->get('page')=="contact")
 {
@@ -14,6 +15,6 @@ else
 {
 	$post= new post;
 	$posts= $post->getPosts();
-	require "views/home.html";
+	require "views/home.php";
 }
 ?>
